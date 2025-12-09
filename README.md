@@ -14,8 +14,8 @@ The main script. Handles command line arguments and calls the functions in
 
 ProjectFunctions.py
 Contains the functions:
-**taskAdd()** – Add a new task or project to the tasks.txt file
-**taskList()** – Display all tasks in the tasks.txt file
+**taskAdd()** – Add a new task or project to the tasks.txt file, 
+**taskList()** – Display all tasks in the tasks.txt file, 
 **taskSearch(keyword)** – Search tasks by a keyword in the tasks.txt file
 
 tasks.txt
@@ -28,6 +28,7 @@ How to run
 3. Run **python ProjectScript.py [argument]** with your selected arguments
    
 Arguments
+
 **--add**
 Adds your entry to the tasks.txt file with a local timestamp. Must be run with either of these options Yes or yes. You will be prompted to add your entry and due date
 Ex.
